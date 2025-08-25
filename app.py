@@ -4,7 +4,7 @@ import os
 
 app = FastAPI()
 
-UNPAYWALL_EMAIL = os.getenv("UNPAYWALL_EMAIL", "teste@example.com")
+UNPAYWALL_EMAIL = os.getenv("UNPAYWALL_EMAIL", "Gedson.altoe11@gmail.com")
 
 async def buscar_openalex(query: str):
     url = f"https://api.openalex.org/works?search={query}&per-page=5"
