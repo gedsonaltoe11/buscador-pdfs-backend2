@@ -5,7 +5,7 @@ import os
 app = FastAPI()
 
 # Pegando o email da variável de ambiente
-UNPAYWALL_EMAIL = os.getenv("UNPAYWALL_EMAIL")
+UNPAYWALL_EMAIL = os.getenv("Gedson.altoe11@gmail.com")
 
 @app.get("/")
 def raiz():
